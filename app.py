@@ -11,5 +11,5 @@ if file is not None:
         file_name = file.name
     
     loader = PyPDFLoader(temp_file)
-    st.write(loader.load())
+    st.write(loader)
     
